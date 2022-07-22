@@ -115,9 +115,63 @@ body{
     grid-gap: 30px; /* 隙間10px */
     margin-bottom: 20px;
 }
-.wrapper > div {
-    border: 5px solid #828fff;
+.img-radius{
+  padding:0 !important;
 }
+.wrapper img{
+  border-radius:15px;
+}
+
+.image_link{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link img{
+   display:block;
+   width:100%;
+ }
+ .image_link:before{
+   content:"";
+   display:block;
+   width:100%;
+   height:100%;
+   position:absolute;
+   z-index:2;
+   background:#000;/*好みの色に変えてください。*/
+   opacity:0;
+   transition:0.3s;
+   border-radius:15px;
+ }
+ .image_link:after{
+   content:"READ MORE";/*好みの文章に変更してください。*/
+   display:block;
+   color:#fff;
+   line-height:48px;
+   width:180px;
+   border:solid 1px #fff;
+   border-radius:5px;
+   text-align:center;
+   position:absolute;
+   top:50%;
+   left:50%;
+   margin-top:-1em;
+   margin-left:-90px;
+   opacity:0;
+   z-index:3;
+   transition:0.3s;
+   font-weight:bold;
+   letter-spacing:0.2em;
+   border-radius:15px;
+ }
+ .image_link:hover:before{
+   opacity:0.5;
+ }
+ .image_link:hover:after{
+   opacity:1;
+   margin-top:-0.5em;
+ }
+
 .worksimg{
     width: 400px;
 }
