@@ -1,2 +1,2 @@
 # [portfolio](https://atotti.github.io/portfolio/)
-portfolioのリポジトリです。かなり適当。
+[portfolio](https://atotti.github.io/portfolio/)のリポジトリです。かなり適当。
