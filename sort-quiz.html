@@ -3,16 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Sorting Algorithm Quiz</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="sort-bar.css">
+  <script src="https://kit.fontawesome.com/e4dfd070e4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" type="image/jpg" href="https://pbs.twimg.com/profile_images/1629734279893889024/cjFc19jP_400x400.jpg" />
+    <meta name="description" content="せつめい">
+    <meta property="og:url" content="index.html" />
+    <link rel="stylesheet" href="main.css">
+    
+    <meta property="og:title" content="ayu" />
+    
+    <link rel="stylesheet" href="sort-bar.css">
 </head>
 <body>
   <h1>Sorting Algorithm Quiz</h1>
   <div id="bars"></div>
-  <p>この配列は何のアルゴリズムによってソートされていますか？</p>
-  <p id="result"></p>
-  <button onclick="shuffle()">Shuffle</button>
-  <button onclick="sort()">Sort</button>
+  <div>
+    <p>この配列は何のアルゴリズムによってソートされていますか？</p>
+    <p id="result"></p>
+    <div class="field">
+    <div>　</div>
+    <div><a class="btn_03" onclick="shuffle()">Shuffle</a></div>
+    <div>　</div>
+    <div><a class="btn_03" onclick="sort()">Sort</a></div>
+    <div>　</div>
+    </div>
+    </div>
   <script src="sort.js"></script>
 </body>
 </html>

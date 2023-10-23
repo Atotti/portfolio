@@ -7,3 +7,7 @@
 .selected {
   background-color: #FF4136;
 }
+
+.field {
+    display: flex;
+}
