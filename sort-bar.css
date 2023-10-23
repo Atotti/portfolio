@@ -1,0 +1,9 @@
+.bar {
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+  background-color: #0074D9;
+}
+.selected {
+  background-color: #FF4136;
+}
