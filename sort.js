@@ -187,7 +187,7 @@ if (sortFunction === bubbleSort) {
 } else if (sortFunction === mergeSort) {
     algorithmName = "Merge Sort";
 }
-result.innerHTML = "<p>配列がソートされました。この配列はどのアルゴリズムによってソートされましたか？</p>" + "<button onclick=\"checkAnswer('Bubble Sort')\">Bubble Sort</button>\n    <button onclick=\"checkAnswer('Quick Sort')\">Quick Sort</button>\n    <button onclick=\"checkAnswer('Insertion Sort')\">Insertion Sort</button>\n    <button onclick=\"checkAnswer('Merge Sort')\">Merge Sort</button>\n";
+result.innerHTML = "<p>この配列はどのアルゴリズムによってソートされましたか？</p>" + "<button onclick=\"checkAnswer('Bubble Sort')\">Bubble Sort</button>\n    <button onclick=\"checkAnswer('Quick Sort')\">Quick Sort</button>\n    <button onclick=\"checkAnswer('Insertion Sort')\">Insertion Sort</button>\n    <button onclick=\"checkAnswer('Merge Sort')\">Merge Sort</button>\n";
 }
 function checkAnswer(answer) {
     let result = document.getElementById("result");
