@@ -52,8 +52,10 @@
           <h1 class="aboutme">About me</h1>
 
           <p>都立の大学の２年生。<br>
-            このポートフォリオは近いうちに<br>
-            Nexj.js/Reactで書き換えるつもり。<br></p>
+            このポートフォリオは<br>
+            フレームワークを使わずに<br>
+            HTML/CSS/JavaScriptを<br>
+            直接書いてます。<br></p>
         </div>
       </div>
 
@@ -90,7 +92,17 @@
             <br><br><br><br>
             <h2>◎ 穴埋め問題自動生成システムKnowFill</h2>
             <h3><div class="links"><a href="https://github.com/Exzrgs/KnowFill">KnowFill</a></div></h3>
-            <br><br><br><br>
+
+            <script src="submit.js"></script>
+            <form onsubmit="submitForm(event)">
+              <textarea id="content" name="content" rows="6" cols="50">「男の娘」（おとこのこ）は、日本のインターネットスラング。2000年代にサブカルチャーの領域で知られるようになり、2010年代に広く一般に普及してブームを起こした。二次元および三次元における、「少女のような外見をした少年」を指していう他者からの評価語であるという一定の共通認識は成立しているが、厳密な解釈は定まっていない。</textarea>
+              <div><input type="submit" value="穴埋め化"></div>
+            </form>
+            <br>
+            <textarea id="response" name="content" rows="6" cols="50">穴埋め後の文章</textarea>
+
+
+            <br><br>
             <h2>◎ Sorting Algorithm Quiz</h2>
               <div id="bars"></div>
               <div>

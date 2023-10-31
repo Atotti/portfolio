@@ -337,78 +337,7 @@ body{
     left: 100%;
   }
   }
-  .button003 a {
-    background: #eee;
-    border-radius: 50px;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 260px;
-    padding: 10px 25px;
-    color: #313131;
-    transition: 0.3s ease-in-out;
-    font-weight: 500;
-  }
-  .button003 a:hover {
-      background: #313131;
-      color: #FFF;
-  }
-  .button003 a:after {
-      content: '';
-      width: 5px;
-      height: 5px;
-      border-top: 3px solid #313131;
-      border-right: 3px solid #313131;
-      transform: rotate(45deg) translateY(-50%);
-      position: absolute;
-      top: 50%;
-      right: 20px;
-      border-radius: 1px;
-      transition: 0.3s ease-in-out;
-  }
-  .button003 a:hover:after {
-      border-color: #FFF;
-  }
-  .button019 a {
-    background: #eee;
-    border-radius: 3px;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 280px;
-    padding: 10px 25px;
-    color: #313131;
-    transition: 0.3s ease-in-out;
-    font-weight: 500;
-}
-.button019 a:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  bottom: 0;
-  right: 2rem;
-  font-size: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: right 0.3s;
-  width: 6px;
-  height: 6px;
-  border-top: solid 2px currentColor;
-  border-right: solid 2px currentColor;
-  transform: translateY(-50%) rotate(45deg);
-}
-.button019 a:hover {
-  background: #6bb6ff;
-  color: #FFF;
-}
-.button019 a:hover:after {
-  right: 1.4rem;
-}
+
 a {
   text-decoration: none;
 }
@@ -428,4 +357,30 @@ a.btn_03 {
 a.btn_03:hover {
 	color: #fff;
 	background: #27acd9;
+}
+
+textarea{
+  font-family: "Varela Round", sans-serif;
+  width: 100%;
+  padding: 10px 15px; 
+  font-size: 16px;
+  border-radius: 3px; 
+  border: 2px solid #ddd; 
+  box-sizing: border-box;
+}
+input[type="submit"]{
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	border-radius: 100vh;
+	transition: 0.5s;
+}
+input[type="submit"]:hover {
+  color: #fff;
+  background: #27acd9;
 }
