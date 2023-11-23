@@ -2,7 +2,7 @@ function submitForm(event) {
   event.preventDefault();
 
   var xhr = new XMLHttpRequest();
-  var url = "http://162.43.30.199:81/api";
+  var url = "https://api.ayutaso.com/knowfill";
   xhr.open("POST", url, true);
   xhr.setRequestHeader("Content-Type", "application/json");
 
