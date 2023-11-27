@@ -56,12 +56,12 @@ body{
     float: right;
   
   }
-  .cover{
+  /*.cover{
     height: 100vh;
     padding: 0px 10vw;
     vertical-align: middle;
     display: flex;
-  }
+  }*/
   .inner{
     margin: auto;
   }
